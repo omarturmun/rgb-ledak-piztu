@@ -1,0 +1,12 @@
+DFRobotMaqueenPlus.I2CInit()
+basic.forever(function () {
+    DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBA, Color.RED)
+    basic.pause(100)
+    DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBA, Color.GREEN)
+    basic.pause(100)
+    DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBA, Color.BLUE)
+    basic.pause(100)
+    DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBA, Color.YELLOW)
+    basic.pause(100)
+    DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBA, Color.PINK)
+})
